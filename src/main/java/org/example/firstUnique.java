@@ -1,16 +1,16 @@
 package org.example;
-
-
 import java.util.Scanner;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Main {
+/*
+ * to find the first unique character from given string
+ * */
+
+public class firstUnique {
     public static void main(String[] args) {
       Scanner sc = new Scanner(System.in);
       String s = sc.nextLine();
-      boolean firstUnique = firstUnique(s);
-      if(!firstUnique){
+      boolean flag = firstUnique(s);
+      if(!flag){
           System.out.println("-1");
       }
     }
