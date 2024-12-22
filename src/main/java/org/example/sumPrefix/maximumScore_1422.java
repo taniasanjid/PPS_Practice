@@ -1,12 +1,8 @@
 package org.example.sumPrefix;
-
-import java.util.Map;
 import java.util.Scanner;
 
-
-
 public class maximumScore_1422 {
-    static int[] prefixSum;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
